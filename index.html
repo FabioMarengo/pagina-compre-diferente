@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=0">
+	<title>Treinando Grid</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<script type="text/javascript">
+		window.onload =function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+	          	if(document.querySelector('.menu').style.display == 'flex') {
+	          		document.querySelector('.menu').style.display = 'none';
+	          	} else {
+	          		document.querySelector('.menu').style.display = 'flex';
+	          	}
+        	});
+      	};
+	</script>
+</head>
+<body>
+	<header>
+		<div class="container banner">
+			<div class="logo">
+				<img src="img/Logotipo.png" alt="Logotipo da empresa Compre Diferente">
+			</div>
+			<div class="site-name">
+				<h1>Compre Diferente</h1>
+			</div>			
+		</div>
+		<div class="menuMobile">
+			<div class="fm-line"></div>
+			<div class="fm-line"></div>
+			<div class="fm-line"></div>
+		</div>
+		<nav>
+			<ul class="menu">
+				<li>
+					<a class="active" href="#">Início</a>
+				</li>
+				<li>
+					<a href="#">Produtos</a>
+				</li>
+				<li>
+					<a href="#">Novidades</a>
+				</li>
+				<li>
+					<a href="#">Contatos</a>
+				</li>
+				<li>
+					<a href="#">Nossa Missão</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="section-1">
+			<div class="container destaque">
+				<div class="destaque_texto">
+					<h2>Confira nossos produtos em destaque...</h2>				
+				</div>
+			</div>
+
+			<div class="container destaque_imgs">
+				<div class="img-1">
+					<figure>
+						<img src="img/luminaria.jpg" alt="Luminária formato de lua">
+						<figcaption>Luminária Lua Cheia 3D</figcaption>
+					</figure>
+				</div>
+				<div class="img-2">
+					<figure>
+						<img src="img/smartwatch.jpg" alt="smartwatch modelo P80 Pro">
+						<figcaption>
+							Smartwatch P80 Pro
+						</figcaption>
+					</figure>
+				</div>
+				<div class="img-3">
+					<figure>
+						<img src="img/mochila.jpg" alt="Mochila com saída USB">
+						<figcaption>Mochila com saída USB</figcaption>
+					</figure>
+				</div>
+			</div>		
+
+			<div class="containe subtexto">			
+				<div class="subtexto_content">
+					<h2>Temos também produtos digitais, escolha os melhores cursos e aprenda em própria casa...</h2>				
+				</div>	
+			</div>
+
+			<div class="container destaque_imgs">
+				<div class="img-1">
+					<figure>
+						<img src="img/manutencao_celular.jpg" alt="Luminária formato de lua">
+						<figcaption>Curso de manutenção<br>de smartphones</figcaption>
+					</figure>
+				</div>
+				<div class="img-2">
+					<figure>
+						<img src="img/eletronica.jpg" alt="smartwatch modelo P80 Pro">
+						<figcaption>
+							Curso de Eletrônica
+						</figcaption>
+					</figure>
+				</div>
+				<div class="img-3">
+					<figure>
+						<img src="img/desenho_realista.jpg" alt="Mochila com saída USB">
+						<figcaption>Curso de Desenho Realista</figcaption>
+					</figure>
+				</div>
+			</div>	
+		</section>
+	</main>
+
+	<footer>
+		<div class="container dados">
+			<div class="address">
+				<h2>Onde estamos?</h2>
+				Rua Fictícia, 888<br>São José dos Campos - SP
+			</div>
+			<div class="social-media">
+				<h2>Siga nossas redes sociais</h2>
+				<div class="icons">
+					<i class="fab fa-facebook-square"></i>
+					<i class="fab fa-youtube-square"></i>
+					<i class="fab fa-instagram"></i>					
+				</div>
+			</div>			
+		</div>
+		<div class="footer_copy">
+			<div class="copy">
+				Todos os direitos reservados&copy;					
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
